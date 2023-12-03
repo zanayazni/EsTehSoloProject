@@ -1,7 +1,7 @@
 import React from "react";
-import bg1svg from "../assets/bg1svg";
 import Navbar from "../Element/Navbar";
 import ScrollMenu from "../Element/ScrollMenu";
+import explore from "../assets/explore.png";
 const Landing = () => {
   return (
     <div className="landing-body bg-white min-h-screen">
@@ -14,8 +14,11 @@ const Landing = () => {
       </svg>
       <div className="explore-drinks flex justify-center">
         <div className="explore-container">
-          <div className="explore-caption">
+          <div className="explore-caption flex-col flex items-center pb-[20px]">
             <h2 className="text-[#276631] font-epilogue font-semibold ">Welcome To ES TEH SOLO</h2>
+            <h2 className="text-[#276631] font-epilogue mt-[10px] font-bold text-[30px] text-center">donec ultrices tincidunt</h2>
+            <button className="px-[20px] py-[10px] bg-[#276631] mt-[10px] text-white font-epilogue rounded-xl">Explore Drinks</button>
+            <img src={explore} className="w-[350px]" alt="" />
           </div>
         </div>
       </div>
