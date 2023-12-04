@@ -28,14 +28,17 @@ const Landing = () => {
       {/*explore drinks section */}
 
       {/*join estehsolo */}
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#276631"
-          fill-opacity="1"
-          d="M0,224L80,234.7C160,245,320,267,480,250.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
-      <div className="join-section font-epilogue text-white px-[35px] bg-[#276631] pt-[30px]">
+      <div className="gelombang-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#276631"
+            fill-opacity="1"
+            d="M0,224L80,234.7C160,245,320,267,480,250.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div className="join-section font-epilogue text-white px-[35px] bg-[#276631] pt-[30px] -mt-[1px]">
         <div className="join-container flex flex-col items-center">
           <div className="join-caption pb-[20px] text-center sm:text-left">
             <h2 className="font-semibold sm:text-[20px]">OWN A FRANCHISE</h2>
