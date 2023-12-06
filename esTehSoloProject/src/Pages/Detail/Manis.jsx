@@ -30,12 +30,14 @@ const Manis = () => {
         </div>
       </div>
 
-      <div className="join-section font-epilogue px-[35px] text-[#276631] pt-[30px] mt-[100px] sm:mt-[50px] flex justify-center">
-        <div className="join-container flex flex-col-reverse items-center sm:flex-row sm:gap-[200px]">
+      <div className="join-section font-epilogue px-[35px] text-[#276631] pt-[30px] mt-[100px] flex justify-center">
+        <div className="join-container flex flex-col items-center sm:flex-row sm:gap-[200px]">
           <div className="join-caption pb-[20px] text-center sm:text-left">
             <h2 className="font-semibold sm:text-[20px]">OWN A FRANCHISE</h2>
-            <h2 className="mt-[10px] font-bold text-[30px] text-center sm:text-[60px] sm:w-[600px] sm:text-left">Join the Chatime family</h2>
-            <h2 className="text-[16px] text-center sm:w-[500px] sm:text-left">Embrace your entrepreneurial spirit and invest in your future with Chatime, a global franchise business.</h2>
+            <h2 className="mt-[10px] font-bold text-[30px] text-center sm:text-[60px] sm:w-[600px] sm:text-left">Join the ES TEH S.O.L.O family</h2>
+            <h2 className="text-[14px] text-center sm:w-[500px] sm:text-left sm:text-[20px]">
+              Es Teh S.O.L.O salah satu kemitraan yang sangat populer di Indonesia. Konsep kemitraan yang mudah dan menguntungkan. Kesuksesan Es Teh S.O.L.O memberikan dampak positif bagi banyak orang
+            </h2>
             <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-[#276631] text-white">Become Royal-tea</button>
           </div>
           <img src={join} className="w-[350px] sm:w-[500px]" alt="" />

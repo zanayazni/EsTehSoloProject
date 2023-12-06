@@ -5,13 +5,15 @@ const Navbar = () => {
   return (
     <div className="navbar-container font-epilogue  text-white px-[35px] py-[35px] flex items-center justify-between">
       <div className="left-side">
-        <h2 className="text-[20px] sm:text-[25px] font-bold">ES TEH S.O.L.O</h2>
+        <h2 className="text-[20px] sm:text-[25px] font-bold cursor-pointer" onClick={() => navigate("/")}>
+          ES TEH S.O.L.O
+        </h2>
       </div>
       <div className="center-side hidden sm:flex sm:gap-[40px]">
-        <h2 onClick={() => navigate("/")}>Tentang Kami</h2>
-        <h2 onClick={() => navigate("/menu")}>Menu</h2>
-        <h2>Franchise</h2>
-        <h2>Artikel</h2>
+        <h2 className="cursor-pointer">Tentang Kami</h2>
+        <h2 className="cursor-pointer" onClick={() => navigate("/menu")}>Menu</h2>
+        <h2 className="cursor-pointer">Franchise</h2>
+        <h2 className="cursor-pointer">Artikel</h2>
       </div>
       <div className="right-side hidden sm:flex gap-[20px]">
         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
@@ -54,7 +56,7 @@ const Navbar = () => {
             </svg>
           </div>
           <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-white text-black rounded-box w-52">
-            <li onClick={() => navigate("/")}>
+            <li>
               <a>Tentang Kami</a>
             </li>
             <li onClick={() => navigate("/menu")}>
