@@ -15,7 +15,7 @@ import estehleci from "../assets/estehleci.png";
 const ScrollMenu = () => {
   const navigate = useNavigate();
   return (
-    <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-white font-epilogue font-semibold sm:pb-[25px]">
+    <div className="scrollbar-hide overflow-x-scroll flex w-full no-scrollbar text-white font-epilogue font-semibold sm:pb-[25px] cursor-pointer">
       <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehmanis")}>
         <img src={estehmanis} className="w-64 h-auto min-w-[100px] rotate-12" alt="Esteh Manis" />
         <h2>Es Teh Manis</h2>
