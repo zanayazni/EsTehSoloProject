@@ -40,11 +40,14 @@ const Landing = () => {
       </div>
 
       {/*explore drinks section */}
-      <div className="explore-drinks flex justify-center sm:-mt-[120px] pb-[40px]">
+      <div className="explore-drinks flex justify-center sm:-mt-[120px] pb-[40px] px-[35px]">
         <div className="explore-container flex flex-col items-center sm:flex-row sm:gap-[300px]">
           <div className="explore-caption pb-[20px] text-center sm:text-left">
             <h2 className="text-[#276631] font-epilogue font-semibold sm:text-[20px] ">Welcome To ES TEH SOLO</h2>
-            <h2 className="text-[#276631] font-epilogue mt-[10px] font-bold text-[30px] text-center sm:text-[60px] sm:w-[455px] sm:text-left">donec ultrices tincidunt</h2>
+            <h2 className="text-[#276631] font-epilogue mt-[10px] font-bold text-[18px] text-center sm:text-[25px] sm:w-[550px] sm:text-left">
+              Bermula dari sebuah tradisi yang terus menguatkan eksistensi. Adalah wangi, sepet, legi, kentel atau orang-orang menyebutnya "Wasgitel". Rasa otentik teh racikan asli perkebunan teh dari SOLO ini memberikan kesegeran dan rasa
+              yang khas tiada duanya
+            </h2>
             <button className="px-[20px] py-[10px] bg-[#276631] mt-[10px] text-white font-epilogue rounded-xl sm:text-[20px]">Explore Drinks</button>
           </div>
           <img src={explore} className="w-[350px] sm:w-[450px]" alt="" />
@@ -67,8 +70,10 @@ const Landing = () => {
         <div className="join-container flex flex-col items-center sm:flex-row-reverse sm:gap-[200px]">
           <div className="join-caption pb-[20px] text-center sm:text-left">
             <h2 className="font-semibold sm:text-[20px]">OWN A FRANCHISE</h2>
-            <h2 className="mt-[10px] font-bold text-[30px] text-center sm:text-[60px] sm:w-[600px] sm:text-left">Join the Chatime family</h2>
-            <h2 className="text-[16px] text-center sm:w-[500px] sm:text-left">Embrace your entrepreneurial spirit and invest in your future with Chatime, a global franchise business.</h2>
+            <h2 className="mt-[10px] font-bold text-[30px] text-center sm:text-[60px] sm:w-[600px] sm:text-left">Join the ES TEH S.O.L.O family</h2>
+            <h2 className="text-[14px] text-center sm:w-[500px] sm:text-left sm:text-[20px]">
+              Es Teh S.O.L.O salah satu kemitraan yang sangat populer di Indonesia. Konsep kemitraan yang mudah dan menguntungkan. Kesuksesan Es Teh S.O.L.O memberikan dampak positif bagi banyak orang
+            </h2>
             <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-white text-[#276631]">Become Royal-tea</button>
           </div>
           <img src={join} className="w-[350px] sm:w-[500px]" alt="" />
@@ -168,7 +173,8 @@ const Landing = () => {
           </div>
         </nav>
         <aside>
-          <p>Copyright © 2023 - All right reserved by ES TEH S.O.L.O Ltd</p>
+          <p>Es Teh S.O.L.O © 2024 Space For Idea. All Right Reserved</p>
+          <p>Surakarta - Indonesia 57143</p>
         </aside>
       </footer>
     </div>
