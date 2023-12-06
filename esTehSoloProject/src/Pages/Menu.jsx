@@ -12,7 +12,10 @@ import estehmatcha from "../assets/estehmatcha.png";
 import estehjasmine from "../assets/estehjasmine.png";
 import estehlemon from "../assets/estehlemon.png";
 import estehleci from "../assets/estehleci.png";
+import React from 'react'
+import { useNavigate } from "react-router-dom";
 const Menu = () => {
+    
   return (
     <div className="menu-body bg-white min-h-screen">
       {/*heading */}
@@ -36,7 +39,7 @@ const Menu = () => {
 
       {/*menu list */}
       <div className="menu-list-container font-epilogue flex justify-center px-[35px]">
-        <div className="menu-list flex flex-wrap justify-center sm:gap-[20px]">
+        <div className="menu-list flex flex-wrap justify-center gap-[20px] sm:gap-[70px]">
           <div className="menu-1 flex flex-col items-center">
             <img src={estehmanis} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-semibold text-[16px]">Es Teh Manis</h2>
@@ -70,11 +73,11 @@ const Menu = () => {
             <h2 className="text-[#276631] font-semibold text-[16px]">Matcha Tea</h2>
           </div>
           <div className="menu-1 flex flex-col items-center">
-            <img src={estehjasmine} className="w-[120px] sm:w-[168px]" alt="" />
+            <img src={estehjasmine} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-semibold text-[16px]">Jasmine Tea</h2>
           </div>
-          <div className="menu-1 flex flex-col items-center translate-x-[40px] sm:-translate-y-10">
-            <img src={estehlemon} className="w-[215px] sm:w-[300px]" alt="" />
+          <div className="menu-1 flex flex-col items-center sm:-translate-y-10">
+            <img src={estehlemon} className="w-[200px] sm:w-[300px]" alt="" />
             <h2 className="text-[#276631] font-semibold text-[16px]">Lemon Tea</h2>
           </div>
           <div className="menu-1 flex flex-col items-center">

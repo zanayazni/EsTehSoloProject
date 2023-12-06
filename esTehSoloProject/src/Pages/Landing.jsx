@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../Element/Navbar";
 import ScrollMenu from "../Element/ScrollMenu";
 import explore from "../assets/explore.png";
@@ -9,6 +10,7 @@ import artis1 from "../assets/artis1.jpg";
 import artis2 from "../assets/artis2.jpg";
 import artis3 from "../assets/artis3.jpg";
 const Landing = () => {
+  const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
   const galleryRef = useRef(null);
 
@@ -73,7 +75,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className="gelombang-3 -mt-[30px]">
+      <div className="gelombang-3">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#276631" fill-opacity="1" d="M0,192L80,208C160,224,320,256,480,234.7C640,213,800,139,960,133.3C1120,128,1280,192,1360,224L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
         </svg>
