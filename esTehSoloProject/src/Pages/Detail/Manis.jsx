@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../Element/Navbar";
 import estehmanis from "../../assets/estehmanis.png";
 import join from "../../assets/join.png";
 const Manis = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="manis-body font-epilogue bg-white min-h-screen">
       {/*heading */}
@@ -19,13 +22,14 @@ const Manis = () => {
       {/*heading */}
       {/*content */}
       <div className="manis-container flex justify-center px-[35px]">
-        <div className="manis-content flex flex-col items-center sm:flex-row sm:gap-[160px] sm:-mt-[300px]">
+        <div className="manis-content flex flex-col items-center sm:flex-row sm:gap-[300px] sm:-mt-[300px]">
           <img src={estehmanis} className="w-[300px] sm:w-[500px]" alt="" />
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
             <h2 className="font-bold text-[20px] text-[#276631] sm:text-[40px]">ES TEH MANIS</h2>
             <h2 className="text-center font-medium text-[#276631] mt-[20px] sm:text-left">
-              Adalah bentuk penyajian teh dalam kondisi dingin. Biasanya disajikan dalam gelas yang diberi es batu didalamnya, ini dapat dirujuk ke teh apa saja yang telah diinginkan
+              Teh yang disajikan dalam kondisi dingin, disajikan dengan es batu dalam gelas untuk mempertahankan kesegarannya. Dapat disesuaikan dengan preferensi kemanisan teh yang diinginkan.
             </h2>
+            <h2 className="text-center text-[#276631] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.3000,00</h2>
           </div>
         </div>
       </div>

@@ -24,39 +24,39 @@ const ScrollMenu = () => {
         <img src={estehkampoel} className="w-64 h-auto min-w-[100px] -rotate-12" alt="Esteh Manis" />
         <h2>Es Teh Kampoel</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehtarik")}>
         <img src={estehtarik} className="w-64 h-auto min-w-[100px] rotate-12" alt="Esteh Manis" />
         <h2>Es Teh Tarik</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehsusu")}>
         <img src={estehsusu} className="w-64 h-auto min-w-[100px] -rotate-12" alt="Esteh Manis" />
         <h2>Es Teh Susu</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehmilo")}>
         <img src={estehmilo} className="w-64 h-auto min-w-[100px] rotate-12" alt="Esteh Manis" />
         <h2>Es Teh Milo</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehcoklat")}>
         <img src={estehcoklat} className="w-64 h-auto min-w-[100px] -rotate-12" alt="Esteh Manis" />
         <h2>Es Teh Coklat</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehblackcurrant")}>
         <img src={estehblackcurrant} className="w-64 h-auto min-w-[100px] rotate-12" alt="Esteh Manis" />
         <h2>Blackcurrant Tea</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehmatcha")}>
         <img src={estehmatcha} className="w-64 h-auto min-w-[100px] -rotate-12" alt="Esteh Manis" />
         <h2>Matcha Tea</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehjasmine")}>
         <img src={estehjasmine} className="w-64 h-auto min-w-[100px] rotate-12" alt="Esteh Manis" />
         <h2>Jasmine Tea</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehlemon")}>
         <img src={estehlemon} className="w-64 h-auto min-w-[100px] -rotate-12" alt="Esteh Manis" />
         <h2>Lemon Tea</h2>
       </div>
-      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden">
+      <div className="content-1 relative flex w-[235px] min-w-[235px] flex-col items-center overflow-hidden" onClick={() => navigate("/estehleci")}>
         <img src={estehleci} className="w-64 h-auto min-w-[100px] rotate-12" alt="Esteh Manis" />
         <h2>Lychee Tea</h2>
       </div>

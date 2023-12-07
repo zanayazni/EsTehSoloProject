@@ -43,12 +43,12 @@ const Landing = () => {
       <div className="explore-drinks flex justify-center sm:-mt-[120px] pb-[40px] px-[35px]">
         <div className="explore-container flex flex-col items-center sm:flex-row sm:gap-[300px]">
           <div className="explore-caption pb-[20px] text-center sm:text-left">
-            <h2 className="text-[#276631] font-epilogue font-semibold sm:text-[20px] ">Welcome To ES TEH SOLO</h2>
-            <h2 className="text-[#276631] font-epilogue mt-[10px] font-bold text-[18px] text-center sm:text-[25px] sm:w-[550px] sm:text-left">
+            <h2 className="text-[#276631] font-epilogue font-bold text-[18px] sm:text-[40px] ">Welcome To ES TEH SOLO</h2>
+            <h2 className="text-[#276631] font-epilogue mt-[10px] font-semibold text-[14px] text-center sm:text-[20px] sm:w-[550px] sm:text-left">
               Bermula dari sebuah tradisi yang terus menguatkan eksistensi. Adalah wangi, sepet, legi, kentel atau orang-orang menyebutnya "Wasgitel". Rasa otentik teh racikan asli perkebunan teh dari SOLO ini memberikan kesegeran dan rasa
               yang khas tiada duanya
             </h2>
-            <button className="px-[20px] py-[10px] bg-[#276631] mt-[10px] text-white font-epilogue rounded-xl sm:text-[20px]">Explore Drinks</button>
+            <button className="btn px-[20px] py-[10px] bg-[#276631] mt-[10px] text-white font-epilogue rounded-xl sm:text-[20px]" onClick={() => navigate("/menu")}>Explore Drinks</button>
           </div>
           <img src={explore} className="w-[350px] sm:w-[450px]" alt="" />
         </div>
@@ -74,7 +74,7 @@ const Landing = () => {
             <h2 className="text-[14px] text-center sm:w-[500px] sm:text-left sm:text-[20px]">
               Es Teh S.O.L.O salah satu kemitraan yang sangat populer di Indonesia. Konsep kemitraan yang mudah dan menguntungkan. Kesuksesan Es Teh S.O.L.O memberikan dampak positif bagi banyak orang
             </h2>
-            <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-white text-[#276631]">Become Royal-tea</button>
+            <button className="btn px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-white text-[#276631]">Become Royal-tea</button>
           </div>
           <img src={join} className="w-[350px] sm:w-[500px]" alt="" />
         </div>

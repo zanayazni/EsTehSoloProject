@@ -1,21 +1,20 @@
 import React, { useEffect } from "react";
 import Navbar from "../../Element/Navbar";
 import join from "../../assets/join.png";
-import estehkampoel from "../../assets/estehkampoel.png";
-
-const Kampoel = () => {
+import estehtarik from "../../assets/estehtarik.png";
+const Tarik = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <div className="manis-body font-epilogue bg-white min-h-screen">
       {/*heading */}
-      <div className="main-head bg-[#A46F49]">
+      <div className="main-head bg-[#D2903B]">
         <Navbar />
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#A46F49"
+          fill="#D2903B"
           fill-opacity="1"
           d="M0,128L48,138.7C96,149,192,171,288,197.3C384,224,480,256,576,245.3C672,235,768,181,864,133.3C960,85,1056,43,1152,26.7C1248,11,1344,21,1392,26.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
         ></path>
@@ -24,18 +23,18 @@ const Kampoel = () => {
       {/*content */}
       <div className="manis-container flex justify-center px-[35px]">
         <div className="manis-content flex flex-col items-center sm:flex-row sm:gap-[300px] sm:-mt-[300px]">
-          <img src={estehkampoel} className="w-[300px] sm:w-[500px]" alt="" />
+          <img src={estehtarik} className="w-[300px] sm:w-[500px]" alt="" />
           <div className="manis-caption flex-col flex items-center mt-[30px] sm:items-start">
-            <h2 className="font-bold text-[20px] text-[#A46F49] sm:text-[40px]">ES TEH KAMPOEL</h2>
-            <h2 className="text-center font-medium text-[#A46F49] mt-[20px] sm:text-left">
-              Penyajian teh dalam keaadan dingin yang diberi sentuhan jeruk nipis atau peras segar. Disebut kampoel karena kondisi jeruk kampoel (mengambang dalam bahasa Jawa) di dalamnya.
+            <h2 className="font-bold text-[20px] text-[#D2903B] sm:text-[40px]">ES TEH TARIK</h2>
+            <h2 className="text-center font-medium text-[#D2903B] mt-[20px] sm:text-left">
+              Menggabungkan teh dengan susu dan krimer dalam penyajiannya yang dingin. Nama "tarik" mengacu pada cara penyajiannya yang unik, di mana teh ini disajikan dengan tindakan menuang yang dramatis yang menarik perhatian.
             </h2>
-            <h2 className="text-center text-[#A46F49] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.5000,00</h2>
+            <h2 className="text-center text-[#D2903B] font-semibold text-[18px] mt-[20px] sm:text-left sm:text-[24px]">Rp.7000,00</h2>
           </div>
         </div>
       </div>
 
-      <div className="join-section font-epilogue px-[35px] text-[#A46F49] pt-[30px] mt-[100px] flex justify-center">
+      <div className="join-section font-epilogue px-[35px] text-[#D2903B] pt-[30px] mt-[100px] flex justify-center">
         <div className="join-container flex flex-col items-center sm:flex-row sm:gap-[200px]">
           <div className="join-caption pb-[20px] text-center sm:text-left">
             <h2 className="font-semibold sm:text-[20px]">OWN A FRANCHISE</h2>
@@ -43,7 +42,7 @@ const Kampoel = () => {
             <h2 className="text-[14px] text-center sm:w-[500px] sm:text-left sm:text-[20px]">
               Es Teh S.O.L.O salah satu kemitraan yang sangat populer di Indonesia. Konsep kemitraan yang mudah dan menguntungkan. Kesuksesan Es Teh S.O.L.O memberikan dampak positif bagi banyak orang
             </h2>
-            <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-[#A46F49] text-white">Become Royal-tea</button>
+            <button className="px-[20px] py-[10px] mt-[10px] rounded-xl sm:text-[20px] bg-[#D2903B] text-white">Become Royal-tea</button>
           </div>
           <img src={join} className="w-[350px] sm:w-[500px]" alt="" />
         </div>
@@ -54,4 +53,4 @@ const Kampoel = () => {
   );
 };
 
-export default Kampoel;
+export default Tarik;
