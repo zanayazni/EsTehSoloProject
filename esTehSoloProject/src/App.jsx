@@ -14,12 +14,14 @@ import Matcha from "./Pages/Detail/Matcha";
 import Jasmine from "./Pages/Detail/Jasmine";
 import Lemon from "./Pages/Detail/Lemon";
 import Lychee from "./Pages/Detail/Lychee";
+import Privacy from "./Pages/Privacy";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Privacy />} />
+        <Route path="/landing" element={<Landing />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/estehmanis" element={<Manis />} />
         <Route path="/estehkampoel" element={<Kampoel />} />
